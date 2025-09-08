@@ -1,0 +1,136 @@
+.quiz.section {
+    background-color: rgb(248, 247, 247);
+    max-width: 600px;
+    min-height: 75vh;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/quiz.jpg);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.userinfo {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 99;
+}
+
+.quiz.section {
+    background-color: rgb(248, 247, 247);
+    max-width: 600px;
+    min-height: 75vh;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#question {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.answer {
+    transform: scale(1.4);
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 8px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+}
+
+label {
+    background: green;
+    cursor: pointer;
+    padding: 12px 15px;
+    margin-left: 30px;
+    border: black 2px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+}
+
+label:hover {
+    background-color: #1a1a1c;
+}
+
+.nextbtn, .clearbtn, .logoutbtn {
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.nextbtn {
+    background-color: rgb(47,75,231);
+    color: white;
+}
+
+.clearbtn {
+    background-color: rgb(140, 147, 185);
+}
+
+.logoutbtn {
+    background-color: rgb(255, 167, 3);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nextbtn:hover {
+    background-color: rgb(11, 30, 142);;
+}
+
+.clearbtn:hover {
+    background-color: rgb(107, 114, 157);
+}
+
+.logoutbtn:hover {
+    background-color: rgb(205, 134, 1);
+}

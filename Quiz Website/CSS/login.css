@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: url(../Images/login.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; 
+    min-height: 100vh;
+}
+
+.main {
+    background-color: white;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #256da4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+    width: 100%;
+}
+
+.field {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 200px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.input {
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    padding: 4px;
+}
+
+.fields{
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.link {
+    color: blue;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#error {
+    color: red;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.button.link:active {
+    background-color:  #106513;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.input:hover {
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+@media (max-width: 450px) {
+
+    .main {
+        max-width: 350px;
+        width: 100%;
+    }
+    .field {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+}

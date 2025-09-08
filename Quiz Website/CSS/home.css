@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #f0f8ff, #e6f0ff);
+    color: #333;
+}
+
+.header {
+    background: #2c3e50;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: yellow;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.link:hover {
+    color: yellow;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 810px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.btn {
+    background: #8e44ad;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+    display: inline-block;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.btn:hover {
+    background: #732d91;
+    transform: scale(1.05);
+}
+
+.footer {
+    background: #2c3e50;
+    color: white;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+#playquizbtn {
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+#playquizbtn:hover {
+    animation-play-state: paused;
+}
