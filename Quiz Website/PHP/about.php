@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../CSS/about.css">
 </head>
 <body>
-    <!-- Header -->
     <header class="header">
         <div class="menu">
             <a href="Home.php" class="link">Home</a>
@@ -17,13 +16,11 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="about-hero">
         <h1>About Us</h1>
         <p>Learn, Play & Grow with Quizzes</p>
     </section>
 
-    <!-- About Content -->
     <main class="about-container">
         <div class="about-content">
             <h2>Who We Are</h2>
@@ -54,7 +51,6 @@
         </div>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2025 My Quiz Website</p>
         <p class="fpara">All Rights Reserved.</p>

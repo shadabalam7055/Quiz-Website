@@ -24,7 +24,7 @@
         } elseif($row['Password_'] != $password) {
             $error = "**Incorrect Password";
         } else {
-            $_SESSION['username'] = $row['Name'];
+            $_SESSION['username'] = $row['UserName'];
             header("Location: quiz.php");
             exit;
         }
@@ -44,7 +44,7 @@
 <body>
 
     <div class="main">
-        <form action="quiz.php" method="post" onsubmit="return validation()" autocomplete="off">
+        <form action="" method="post" onsubmit="return validation()" autocomplete="off">
         <div id="title">Login</div>
 
         <div class="form">

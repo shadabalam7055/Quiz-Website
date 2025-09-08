@@ -72,7 +72,7 @@ if(isset($_POST['register']))
 </head>
 <body>
     <div class="main">
-        <form action="quiz.php" method="post" onsubmit="return validation()" autocomplete="off">
+        <form action="" method="post" onsubmit="return validation()" autocomplete="off">
         <div id="title">SIGN UP</div>
 
         <div class="form">

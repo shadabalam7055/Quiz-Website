@@ -5,13 +5,11 @@
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-/* Body */
 body {
     background: linear-gradient(to right, #f0f8ff, #e6f0ff);
     color: #333;
 }
 
-/* Header */
 .header {
     background: #2c3e50;
     color: white;
@@ -48,7 +46,6 @@ body {
     border-bottom: 3px solid yellow;
 }
 
-/* Hero Section */
 .about-hero {
     height: 40vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -71,7 +68,6 @@ body {
     font-style: italic;
 }
 
-/* About Content */
 .about-container {
     max-width: 1000px;
     margin: 50px auto;
@@ -103,7 +99,6 @@ body {
     color: #2c3e50;
 }
 
-/* Footer */
 .footer {
     background: #2c3e50;
     color: white;
